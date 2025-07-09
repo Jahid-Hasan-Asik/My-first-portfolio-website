@@ -4,24 +4,154 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>My first portfolio website</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style/style.css">
 
 
    
 </head>
 
-<body>
+<body class="open-sans-normal">
 
-   <header>
+<!--Header Section Start-->
+   <header class="header secondary-bg"> 
+      <nav>
+         <h3 class="nav-title">Odyssey<span class="text-primary">Digital</span></h3>
+         <ul class="dark2">
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>Porfolios</li>
+            <li><a href=""></a>Services</li>
+            <li><a href=""></a>Blogs</li>
+            <li><a href=""></a>Reviews</li>
+            <li><a href=""></a>About us</li>
+             <li><a href=""><button class="btn-primary">Home</button></a></li>
+         </ul>
+      </nav>
 
+      <div class="bannar">
+         <div class="banner-content">
+            <h4 class="bannar-greetings dark2" >Hi, I am</h4>
+            <h1 class="bannar-title">Jahid Hasan Asik</h1>
+            <p class="banner-description dark2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi sit nihil earum at, molestias quaerat sunt, quis libero veniam voluptatum commodi quam quisquam nobis explicabo quod quibusdam repellendus consequuntur assumenda?</p>
+
+            <button class="btn-primary">Join now</button>
+            <button class="btn-primary">Contact</button>
+
+         </div>
+         <img class="bannar-profile-photo" height="680px" src="Media/asik cover .png" alt="Photo of Jahid Hasan Asik">
+      </div>
    </header>
 
+<!--About Section Start-->
    <main>
+      <section class="about secondary-bg">
+         <h3 class="section-title">About Me</h3>
+         <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iste neque tenetur numquam, aperiam eos corporis, maxime, nobis fugit delectus impedit. Numquam obcaecati, excepturi sequi soluta deleniti ipsum dolorum, a odio nam, odit atque dolorem ipsam necessitatibus esse eius fuga officiis quasi sapiente. Ex molestias similique nisi pariatur recusandae sequi.</p>
+         <div class="about-items">
+            <!--.about-item*4>p.item-title+p.item-description-->
+            <div class="about-item">
+               <p class="item-title">Name</p>
+               <p class="item-description">Jahid Hasab Asik</p>
+            </div>
+            <div class="about-item">
+               <p class="item-title">E-mail</p>
+               <p class="item-description">jahidhasanasik1@gmail.com</p>
+            </div>
+            <div class="about-item">
+               <p class="item-title">Date of Birth</p>
+               <p class="item-description">03 May 2001</p>
+            </div>
+            <div class="about-item">
+               <p class="item-title">From</p>
+               <p class="item-description">Cumilla, Bangladesh</p>
+            </div>
+         </div>
+      </section>
+<!--What I do Section Start-->
+      <section class="skills">
+         <h3 class="section-title text-center">What I do</h3>
+         <p class="section-description text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam quae cum similique sapiente quisquam ut ratione ipsam quas soluta, consequatur error quidem facilis omnis officia, voluptatem laudantium eius quia quis. Assumenda nobis quod aliquam sed nam aperiam exercitationem adipisci voluptate odio quo delectus repudiandae, fugit a unde fugiat minima consequatur dolorum, odit nulla excepturi. ad sit repellendus repellat adipisci officiis sequi harum nemo laboriosam quia aut est iure minima! Necessitatibus id magni similique architecto. Et ea vero quasi  quas iusto quam veritatis magnam eos. Eos odio ea unde ipsa, quas illo neque dolorem, fugiat nostrum ipsam aliquid asperiores, quidem reiciendis nihil praesentium corrupti consectetur maxime temporibus?</p>
 
-   </main>
+         <div class="skills-containar">
+            <!--skill*4>img+h4.skill-title+p.skills-description-->
+            <div class="skill">
+               <img src="images/icons/js.png" alt="">
+               <h4 class="skill-title">Vanilla Java Script</h4>
+               <p class="skills-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugiat dolore ipsum iusto voluptate officiis commodi, fugit officia dolor maiores ipsam soluta laudantium consectetur aliquid!</p>
+            </div>
+            <div class="skill">
+               <img src="images/icons/react.png" alt="">
+               <h4 class="skill-title"> React</h4>
+               <p class="skills-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugiat dolore ipsum iusto voluptate officiis commodi, fugit officia dolor maiores ipsam soluta laudantium consectetur aliquid!</p>
+            </div>
+            <div class="skill">
+               <img src="images/icons/nodejs.png" alt="">
+               <h4 class="skill-title">Node JS</h4>
+               <p class="skills-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugiat dolore ipsum iusto voluptate officiis commodi, fugit officia dolor maiores ipsam soluta laudantium consectetur aliquid!</p>
+            </div>
+            <div class="skill">
+               <img src="images/icons/mongo.png" alt="">
+               <h4 class="skill-title">MongoDB</h4>
+               <p class="skills-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugiat dolore ipsum iusto voluptate officiis commodi, fugit officia dolor maiores ipsam soluta laudantium consectetur aliquid!</p>
+            </div>
+         </div>
+      </section>
+      <section class="resume">
+         <h3 class="section-title text-center"> A Short Summary of My Resume</h3> <br> <br>
+         <div class=" resume-containar">
+            <!--.resume-column*2>h3.resume-column-title+.expetience*3>h4.experience-title+h5.experience-sub-title+.experience-description-->
+            <div class="resume-column">
+               <h3 class="resume-column-title"> My Education</h3>
+               <div class="expetience">
+                  <h4 class="experience-title">Bachalor of Business Administration</h4>
+                  <h5 class="experience-sub-title">CCN University Of Science and Technology/ 2023-2027</h5>
+                  <div class="experience-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ullam itaque doloribus in dolores eveniet qui minus voluptates unde eos?</div>
+               </div> <hr>
+               <div class="expetience">
+                  <h4 class="experience-title">Higher Seconday School Certificate</h4>
+                  <h5 class="experience-sub-title">Jahapur K.K. Collage, Cumilla. /2021 - 2022</h5>
+                  <div class="experience-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ullam itaque doloribus in dolores eveniet qui minus voluptates unde eos?</div>
+               </div> <hr>
+               <div class="expetience">
+                  <h4 class="experience-title">Seconday School Certificate</h4>
+                  <h5 class="experience-sub-title">Jahapur K.K. Academy, Cumilla. /2012 - 2021</h5>
+                  <div class="experience-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ullam itaque doloribus in dolores eveniet qui minus voluptates unde eos?</div>
+               </div>
+            </div>
+            <div class="resume-column">
+               <h3 class="resume-column-title">My Experience</h3>
+               <div class="expetience">
+                  <h4 class="experience-title">Sr Front End Developer</h4>
+                  <h5 class="experience-sub-title">Dribble Inc. /2024 - 2025</h5>
+                  <div class="experience-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ullam itaque doloribus in dolores eveniet ipsum dolor sit amet consectetur adipisicing elit. Suscipit ullam itaque doloribus in dolores eveniet qui minus voluptates unde eos?</div>
+               </div><hr>
+               <div class="expetience">
+                  <h4 class="experience-title">Jr Front End Developer</h4>
+                  <h5 class="experience-sub-title">Ollyo Inc. /2023 - 2024 </h5>
+                  <div class="experience-description">Lorem, ipsum dolor sit ipsum dolor sit amet consectetur adipisicing elit. Suscipit ullam itaque doloribus in dolores eveniet amet consectetur adipisicing elit. Suscipit ullam itaque doloribus in dolores eveniet qui minus voluptates unde eos?</div>
+               </div><hr>
+               <div class="expetience">
+                  <h4 class="experience-title">Cash in Charge</h4>
+                  <h5 class="experience-sub-title">Islami Bank Bangladesh PLC. /2021 - 2023</h5>
+                  <div class="experience-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ullam itaque doloribus in dolores eveniet qui minus voluptates unde eos?</div>
+               </div>
+            </div>
 
-   <footer>
+         </div><br>
+         <div class="text-center">
+             <button class="btn-primary"> Dounload CV</button>
+         </div>
+      </section>
 
+   </main >
+
+   <footer class="secondary-bg">
+   
+      <div class="footer-column"></div>
+      
+      <div class="footer-column"></div>
    </footer>
 
 </body>
