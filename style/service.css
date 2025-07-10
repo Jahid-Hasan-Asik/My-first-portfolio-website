@@ -66,10 +66,7 @@ nav{
    font-size:15px;
    padding:7px 13px;
    border-radius:6px;
-}
-
-
-   
+} 
 .dark2{
    color:#474747;
 }
@@ -99,45 +96,41 @@ nav{
  
 }
 .section-title{
-   font-size: 35px;
+   font-size: 50px;
    font-weight: bold;
    color: #181818;
 }
 .section-description{
-   font-size: 18px;
+   font-size: 25px;
    color: #757575;
-   margin-bottom: 70px;
+   margin-bottom: 50px;
 }
 
 .secondary-bg{
    background-color: #FFF8F3;
+   
+   
 }
+
+/* Main Section Style*/
 
 /* main Style*/
 main{
-   max-width: 1140px;
-   margin: 0 auto;
+   max-width: 1750px;
+   margin:0px 200px 0px 300px;
 }
 main section{
-   margin-top: 130px;
-   margin-bottom: 130px;
+   margin-top: 30px;
+   margin-bottom: 80px;
 }
 
-
-/* About Style*/
-
-.about{
-   border: 10px;
-   padding: 130px 150px;
+.secondary-ban{
+   background-color:  #f8cfb2;
+   padding: 0px;
+   margin: 0 250px 0 250px;
    text-align: center;
-   margin-top: 130px;
+   border-radius: 20px;
 }
-
-.about-items{
-   display: flex;
-   justify-content: space-around;
-}
-
 /* Skills section Style*/
 .skills-containar{
 display:flex;
@@ -147,23 +140,13 @@ gap: 25px;
    padding:30px; border-radius: 05px;
    box-shadow: 0px 6px 50px 0px #c9c9c9;
 }
-/* resume section style*/
-.resume-containar{
-   display: flex;
-   gap: 25px;
-}
- .experience-description,.experience-sub-title {
-   color: #757575;
-}
-.experience-sub-title{
-   font-size: 20px;
-   font-weight: 500;
 
-}
-.resume hr{
-   margin: 10px 05px;
-}
-/* Footer style*/
+
+
+
+
+
+
 
 footer{
    padding: 130px 230px;
@@ -187,14 +170,9 @@ footer input[type="text"], [type="Your E-mail"], [type="What's App"], textarea{
 font-family: "Open Sans", sans-serif;
 }
 
-/* Service page stye*/
 
-/* Skills2 section Style*/
-.skills2-containar{
-display:flex;
-gap: 25px;
-}
-.skill2{
-   padding:30px; border-radius: 05px;
-   box-shadow: 0px 6px 50px 0px #c9c9c9;
-}
+
+
+
+
+
